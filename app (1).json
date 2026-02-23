@@ -1,0 +1,17 @@
+{
+    "name": "Master-Extractor",
+    "description": "Master Extractor Bot for Telegram, built with Pyrogram.",
+    "keywords": [
+        "pyrogram",
+        "docker"
+    ],
+    "stack": "container",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
+    },
+    "addons": [],
+    "buildpacks": []
+}
