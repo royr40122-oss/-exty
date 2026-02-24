@@ -1,1 +1,11 @@
+#SAFE_ZONE
+# Add your details here and then deploy by clicking on HEROKU Deploy button
+import os
+from os import environ
 
+API_ID = int(environ.get("API_ID", "31445635"))
+API_HASH = environ.get("API_HASH", "15c057ca3aa85360ac3d63de52368718")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8261884293:AAFmSfI-zE2rduTKIdaQhdlWINvBM03VNz0")
+
+OWNER = int(environ.get("OWNER_ID", ""))
+CREDIT = environ.get("CREDIT", "😇")
